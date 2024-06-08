@@ -26,7 +26,7 @@ nav ul {
 }
 
 nav ul li {
-    display: inline;
+    display: inline-block; /* Changed to inline-block */
     margin-right: 20px;
 }
 
@@ -48,6 +48,7 @@ footer {
     color: white;
     text-align: center;
     padding: 1rem 0;
+    margin-top: 2rem;
 }
 
 /* Responsive Design */
@@ -58,8 +59,4 @@ main {
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-}
-
-footer {
-    margin-top: 2rem;
 }
